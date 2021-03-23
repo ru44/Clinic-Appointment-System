@@ -1,0 +1,84 @@
+5 4 6 2 24
+SET_physician
+Ahmed_Ali saudi 1980 2 13 M 0555777999 AZahra false Dermatology
+Osama_Basem saudi 1970 3 10 M 0555888999 Alsafa false Pediatric
+Talal_Ammar indian 1969 2 20 M 0555666999 Alsulaymaniyah false Pediatric
+Yaser_Anwar egyptian 1966 5 23 M 0555222999 Alfaisaliyah false Dermatology
+Wed_Bassam saudi 1986 2 15 F 0555111999 alrawdah false Neuroradiology
+
+SET_nurse
+Layla_Ali egyptian 1980 2 1 F 0555777888 Alfaisaliyah false 5
+Mohammed_Ahmed saudi 1976 5 10 M 0555888955 alrawdah false 20
+Ammar_kalid indian 1999 12 20 M 0555666333 AZahra false 8
+Hala_Bassam saudi 1964 5 23 F 0555222111 Alfaisaliyah false 10
+
+SET_patient
+Omar_Anwar saudi 1984 5 13 M 0544477999 AZahra Pain
+Adel_Hassan saudi 1975 3 18 M 05555558999 Alsafa Fever
+Nour_Yazan indian 1967 2 10 F 0577776999 Alsulaymaniyah Headache
+Saleh_Esmael egyptian 1986 5 28 M 0533332299 Alfaisaliyah Fever
+Basma_Kamel saudi 2013 5 17 F 0555511999 alrawdah coughing
+Adel_Mustafa saudi 2001 9 19 M 0555999999 Alsafa Fever
+
+SET_Clinic
+1 2
+2 4
+
+SET_Appointment
+1 2 2020 3 12 10 
+1 2 2020 3 12 11 
+1 2 2020 3 12 12 
+1 2 2020 3 12 17 
+1 2 2020 3 12 18 
+1 2 2020 3 12 19 
+1 2 2020 3 13 10 
+1 2 2020 3 13 11 
+1 2 2020 3 13 12 
+1 2 2020 3 13 17 
+1 2 2020 3 13 18 
+1 2 2020 3 13 19 
+2 4 2020 3 12 10 
+2 4 2020 3 12 11 
+2 4 2020 3 12 12 
+2 4 2020 3 12 17 
+2 4 2020 3 12 18 
+2 4 2020 3 12 19 
+2 4 2020 3 13 10 
+2 4 2020 3 13 11 
+2 4 2020 3 13 12 
+2 4 2020 3 13 17 
+2 4 2020 3 13 18 
+2 4 2020 3 13 19 
+
+RSRVAppointment Omar_Anwar 1 2 2020 3 12 11 
+RSRVAppointment Omar_Anwar 1 2 2020 3 11 12 
+RSRVAppointment Omar_Anwar 1 2 2020 3 13 19
+RSRVAppointment Adel_Hassan 1 2 2020 3 12 12
+RSRVAppointment Omar_Anwar 1 2 2020 3 12 12 
+RSRVAppointment Omar_Ali 1 2 2020 3 11 19
+
+RSRVAppointment Omar_Anwar 1 2 2020 3 13 18
+
+PrintPatientRecord  Omar_Anwar
+
+RSRVAppointment Saleh_Esmael 1 2 2020 3 12 17
+RSRVAppointment Saleh_Esmael 2 4 2020 3 12 19
+
+PrintPatientRecord  Saleh_Esmael
+
+CancelAppointment Saleh_Esmael 1 2 2020 3 12 17 
+PrintPatientRecord  Saleh_Esmael
+CancelAppointment Saleh_Esmael 1 2 2020 3 12 18 
+CancelAppointment Adel_adel 1 2 2020 3 12 19
+
+
+RSRVAppointment Basma_Kamel 1 2 2020 3 12 17 
+PrintPatientRecord Basma_Kamel
+
+PrintPatientRecord Omar_Ali
+
+PrintPatientRecord Nour_Yazan
+
+
+
+Quit

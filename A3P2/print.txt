@@ -1,0 +1,219 @@
+
+Welcome to the Clinic Appointment System!
+
+
+COMMAND: SET PHYSICIANS
+
+Name: Ahmed_Ali    Id:  0
+Name: Osama_Basem  Id:  1
+Name: Talal_Ammar  Id:  2
+Name: Yaser_Anwar  Id:  3
+Name: Wed_Bassam   Id:  4
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: SET NURSES
+
+Name: Layla_Ali       Id:  5
+Name: Mohammed_Ahmed  Id:  6
+Name: Ammar_kalid     Id:  7
+Name: Hala_Bassam     Id:  8
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: SET PATIENTS
+
+Name: Omar_Anwar   Id:  9
+Name: Adel_Hassan  Id:  10
+Name: Nour_Yazan   Id:  11
+Name: Saleh_Esmael Id:  12
+Name: Basma_Kamel  Id:  13
+Name: Adel_Mustafa Id:  14
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: SET CLINICS
+
+Clinic: Number  1 Floor: 2
+Clinic: Number  2 Floor: 4
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: SET APPOINTMENTS
+
+Clinic: Number 1 Floor: 2  Date: 12/3/2020 Time: 10:00
+Clinic: Number 1 Floor: 2  Date: 12/3/2020 Time: 11:00
+Clinic: Number 1 Floor: 2  Date: 12/3/2020 Time: 12:00
+Clinic: Number 1 Floor: 2  Date: 12/3/2020 Time: 17:00
+Clinic: Number 1 Floor: 2  Date: 12/3/2020 Time: 18:00
+Clinic: Number 1 Floor: 2  Date: 12/3/2020 Time: 19:00
+Clinic: Number 1 Floor: 2  Date: 13/3/2020 Time: 10:00
+Clinic: Number 1 Floor: 2  Date: 13/3/2020 Time: 11:00
+Clinic: Number 1 Floor: 2  Date: 13/3/2020 Time: 12:00
+Clinic: Number 1 Floor: 2  Date: 13/3/2020 Time: 17:00
+Clinic: Number 1 Floor: 2  Date: 13/3/2020 Time: 18:00
+Clinic: Number 1 Floor: 2  Date: 13/3/2020 Time: 19:00
+Clinic: Number 2 Floor: 4  Date: 12/3/2020 Time: 10:00
+Clinic: Number 2 Floor: 4  Date: 12/3/2020 Time: 11:00
+Clinic: Number 2 Floor: 4  Date: 12/3/2020 Time: 12:00
+Clinic: Number 2 Floor: 4  Date: 12/3/2020 Time: 17:00
+Clinic: Number 2 Floor: 4  Date: 12/3/2020 Time: 18:00
+Clinic: Number 2 Floor: 4  Date: 12/3/2020 Time: 19:00
+Clinic: Number 2 Floor: 4  Date: 13/3/2020 Time: 10:00
+Clinic: Number 2 Floor: 4  Date: 13/3/2020 Time: 11:00
+Clinic: Number 2 Floor: 4  Date: 13/3/2020 Time: 12:00
+Clinic: Number 2 Floor: 4  Date: 13/3/2020 Time: 17:00
+Clinic: Number 2 Floor: 4  Date: 13/3/2020 Time: 18:00
+Clinic: Number 2 Floor: 4  Date: 13/3/2020 Time: 19:00
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: RESERVE APPOINTMENT
+
+Appointment for patient Omar_Anwar is done
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: RESERVE APPOINTMENT
+
+Appointment not found in the clinic appointment list
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: RESERVE APPOINTMENT
+
+Appointment for patient Omar_Anwar is done
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: RESERVE APPOINTMENT
+
+Appointment for patient Adel_Hassan is done
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: RESERVE APPOINTMENT
+
+Appointment for patient Omar_Anwar can not be added as he has 2 appointment registered
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: RESERVE APPOINTMENT
+
+Patient Omar_Ali is not registered
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: RESERVE APPOINTMENT
+
+Appointment for patient Omar_Anwar can not be added as he has 2 appointment registered
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: PRINT PATIENT APPOINTMENTS RECORD
+
+Appointment for Omar_Anwar are:
+
+Appointment number: 1 Clinic: Number 1 Floor: 2  Date: 12/3/2020 Time: 11:00
+
+Appointment number: 2 Clinic: Number 1 Floor: 2  Date: 13/3/2020 Time: 19:00
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: RESERVE APPOINTMENT
+
+Appointment for patient Saleh_Esmael is done
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: RESERVE APPOINTMENT
+
+Appointment for patient Saleh_Esmael is done
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: PRINT PATIENT APPOINTMENTS RECORD
+
+Appointment for Saleh_Esmael are:
+
+Appointment number: 1 Clinic: Number 1 Floor: 2  Date: 12/3/2020 Time: 17:00
+
+Appointment number: 2 Clinic: Number 2 Floor: 4  Date: 12/3/2020 Time: 19:00
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: CANCEL APPOINTMENT
+
+Appointment for patient Saleh_Esmael is Canceled 
+Appointment is Canceled from the clinic appointment list and available for other patient
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: PRINT PATIENT APPOINTMENTS RECORD
+
+Appointment for Saleh_Esmael are:
+
+Appointment number: 1 Clinic: Number 2 Floor: 4  Date: 12/3/2020 Time: 19:00
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: CANCEL APPOINTMENT
+
+Appointment not found in patient Saleh_Esmael records
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: CANCEL APPOINTMENT
+
+Patient Adel_adel is not registered
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: RESERVE APPOINTMENT
+
+Appointment for patient Basma_Kamel is done
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: PRINT PATIENT APPOINTMENTS RECORD
+
+Appointment for Basma_Kamel are:
+
+Appointment number: 1 Clinic: Number 1 Floor: 2  Date: 12/3/2020 Time: 17:00
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: PRINT PATIENT APPOINTMENTS RECORD
+
+Patient Omar_Ali is not registered
+
+
+------------------------------------------------------------------------------------------------------
+
+COMMAND: PRINT PATIENT APPOINTMENTS RECORD
+
+Appointment for Nour_Yazan are:
+
+Patient Nour_Yazan has no appointment
+
+------------------------------------------------------------------------------------------------------
+
+
+Thank you for using the clinic appointment System, Good Bye!
